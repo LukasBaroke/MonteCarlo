@@ -1,5 +1,5 @@
 import numpy as np
-from .bitstring import BitString
+from montecarlo.bitstring import BitString
 
 class MonteCarlo:
     def __init__(self, hamiltonian):
