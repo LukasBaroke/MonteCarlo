@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest coverage codecov networkx numpy
+        pip install pytest coverage codecov networkx numpy matplotlib
 
     - name: Run tests and generate coverage report
       run: |
